@@ -1,0 +1,59 @@
+.bg {
+    /*background: linear-gradient(
+        to left,
+        #f14f3a,
+        #923133,
+        #302b4b
+    ) !important; /* Gradiente de fondo */
+    background-color: transparent;
+    border-top: none; /* Borde blanco solo en la parte superior */
+    border-right: none; /* Sin borde en la parte derecha */
+    border-bottom: 1px solid white; /* Sin borde en la parte inferior */
+    border-left: none; /* Sin borde en la parte izquierda */
+    backdrop-filter: blur(40px);
+}
+
+
+.text{
+
+    color: white !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important; /* Fuente similar */
+    transition: background 0.3s!important;
+}
+
+.text:hover{
+
+    background-color: #f14f3a!important; /* Cambia el color del texto */
+    transform: scale(1.05); /* Añade un ligero efecto de zoom al pasar el ratón */
+    transition: transform 0.3s, color 0.3s, border-right 0.3s; /* Suaviza la transición de los cambios */
+    border-radius: 2px;
+
+}
+
+.winbutton {
+    display: inline-block!important;
+    padding: 0px 20px!important;
+    width: auto!important; /* Ajusta el ancho según sea necesario */
+    height: 100%!important; /* Ajusta la altura según sea necesario */
+    background: transparent!important; /* Gradiente verde */
+    border-right: 2px solid white!important; /* Solo borde en el lado derecho */
+    border-left: none!important; /* Sin borde en el lado izquierdo */
+    border-top: none!important; /* Sin borde en la parte superior */
+    border-bottom: none!important; /* Sin borde en la parte inferior */
+    border-radius: 0!important; /* Sin bordes redondeados */
+    color: white!important; /* Color del texto */
+    text-align: center!important; /* Centra el texto */
+    line-height: 40px!important; /* Centra verticalmente el texto */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important; /* Fuente similar */
+    cursor: pointer!important; /* Cambia el cursor al pasar sobre el botón */
+    transition: background 0.3s!important; /* Suaviza el cambio de color de fondo */
+}
+
+.winbutton:hover {
+    border-right: 2px solid white!important; /* Cambia el color del borde derecho al pasar el ratón */
+    background-color: #f14f3a!important; /* Cambia el color del texto */
+    transform: scale(1.05); /* Añade un ligero efecto de zoom al pasar el ratón */
+    transition: transform 0.3s, color 0.3s, border-right 0.3s; /* Suaviza la transición de los cambios */
+}
+
+

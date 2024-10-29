@@ -1,0 +1,15 @@
+.text{
+
+    color: white !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important; /* Fuente similar */
+    transition: background 0.3s!important;
+}
+
+.text:hover{
+
+    background-color: #f14f3a!important; /* Cambia el color del texto */
+    transform: scale(1.05); /* Añade un ligero efecto de zoom al pasar el ratón */
+    transition: transform 0.3s, color 0.3s, border-right 0.3s; /* Suaviza la transición de los cambios */
+    border-radius: 2px;
+
+}

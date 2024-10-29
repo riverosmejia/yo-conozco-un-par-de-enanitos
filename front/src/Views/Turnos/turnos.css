@@ -1,0 +1,72 @@
+body {
+    display: flex; /* Usar flexbox para centrar todo en la página */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    min-height: 100vh; /* Asegurarse de que el cuerpo ocupe toda la altura */
+    background: url('path_to_your_background_image.jpg') no-repeat center center fixed; /* Añade tu fondo aquí */
+    background-size: cover; /* Asegura que el fondo cubra toda la pantalla */
+}
+
+.formContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    margin: 2rem auto; /* Margen alrededor del formulario */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    border: 1px solid white;
+    backdrop-filter: blur(20px);
+    color: white;
+}
+
+.formContainer1{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    padding: 20px; /* Espaciado interno */
+
+}
+
+.card {
+    display: flex;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    backdrop-filter: blur(5px);
+    align-items: center;
+    flex-direction: row;
+    padding: 10px; /* Espaciado interno */
+    margin: 1rem 0; /* Margen vertical entre las tarjetas */
+    width: 100%; /* Asegúrate de que ocupe todo el ancho */
+    text-align: center; /* Alinear el texto al centro */
+    transition: background-color 0.5s ease, border-color 0.5s ease, transform 0.3s ease; /* Transiciones específicas */
+}
+
+/* Estilo para turnos cancelados */
+.card.cancelled {
+    background-color: transparent; /* Color de fondo semitransparente para cancelados */
+    border-color: 1px solid white; /* Cambia el color del borde a rojo */
+    transform: scale(1.02); /* Aumenta ligeramente el tamaño para el efecto de "salto" */
+    color: white;
+    border-color: white;
+}
+
+
+    .formLabel {
+    width: 100%; /* Mantener el label al 100% */
+    margin-bottom: 5px; /* Espacio entre el label y el input */
+    color: white;
+    }
+
+    .formInput {
+    width: 100%; /* Cambia el ancho a un 60% para que no ocupe todo el espacio */
+    padding: 10px; /* Espaciado interno para los inputs */
+    border: 1px solid white; /* Borde del input */
+    background: transparent;
+    border-radius: 4px; /* Bordes redondeados */
+    margin-bottom: 15px; /* Espacio entre inputs */
+    }
+
+

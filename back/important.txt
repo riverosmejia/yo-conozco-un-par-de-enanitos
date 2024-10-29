@@ -1,0 +1,56 @@
+
+Instalaciones:
+--------------
+
+    El node_modules de ambos lados es ignorado por el gitignore, por lo cual
+    se debería instalar de forma local todas las dependencias:
+
+        dev. dependencias:
+
+            * npm install typescript --save-dev:
+
+                Instala typescript como dependencia de desarrollo.
+
+    
+
+Proyecto:
+---------
+
+    /back
+    |
+    ├──important.txt    <---USTED ESTÁ AQUÍ
+    |
+    ├──/node_modules
+    |
+    ├──package.json     <---ARCHIVO DE CONFIGURACIÓN GENERAL DE LA APP
+    |                       DEL BACK.
+    |
+    ├──tsconfig.json    <---ARCHIVO DE CONFIGURACIÓN  DE TYPESCRIPT
+    |
+    ├──/src
+    |   |
+    |   ├──/controllers
+    |   |  │
+    |   |  ├──/UserControllers
+    |   |  │ 
+    |   │  └──/AppointmentControllers
+    |   |
+    |   ├──/routes
+    |   |  │
+    |   |  ...
+    |   |
+    |   ├──/services
+    |   |  │
+    |   |  ...
+    |   |
+    |   ├──/DTO
+    |   |  
+    |   ├──/config
+    |   |  |
+    |   |  ├──/envs.ts
+    |   |  
+    |   └──server.ts || index.ts    <---ARCHIVOS DE INICIO DE LA APP.
+    |
+    ESTAMOS EN OBRAS HPTA >:(
+
+    Routes-->Controllers--->services.
